@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Profile Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+        
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+            <br />
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1 col-xs-offset-2">
+                    <img src="images/logo.jpg" height="160" />
+                </div>
+                <div class="col-md-6">
+                    <br />
+                    <br />
+                    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-weight: bold">Profile</h1>
+                </div>
+            </div>
+            <br />
+            <div class="row" style="border-bottom: 2px solid black">
+            </div>
+            <div class="row" style="border: 1px solid black; background-color: #90EE90">
+                    <div class="col-md-3">
+                            <a href="ProfilePage.html">  <h2 class="text-center" style="background-color: #90EE90; color: black; font-family: Times New Roman">Profile</h2></a>
+                          </div>
+                          <div class="col-md-3">
+                           <a href="AddWhanau.html">    <h2 class="text-center" style="background-color: #90EE90; color: black; font-family: Times New Roman">Add whanau</h2></a>
+                          </div>
+                          <div class="col-md-3">
+                          <a href="FindWhanau.html">    <h2 class="text-center" style="background-color: #90EE90; color: black; font-family: Times New Roman">Find my whanau</h2></a>
+                          </div>
+                          <div class="col-md-3">
+                         <a href="Message.html">  <h2 class="text-center" style="background-color: #90EE90; color: black; font-family: Times New Roman">Message my whanau </h2></a>
+                          </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                   <a href="https://www.facebook.com/"> <img src="images/fb.png" height="100" /></a>
+                </div>
+                <br />
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="contain1" style="border: 2px solid black; height: 500px; border-radius: 6px;">
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-4">
+                                <img src="images/user.png" height="100" />
+                            </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input id="name inputlg" type="text" class="form-control input-lg" name="name" placeholder="Name" />
+                                </div>
+                                <br />
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                    <input id="Mobile inputlg" type="text" class="form-control input-lg" name="mbile" placeholder="Mobile" />
+                                </div>
+                                <br />
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+                                    <input id="locatoin inputlg" type="text" class="form-control input-lg" name="location" placeholder="Location" />
+                                </div>
+                                <br />
+                                <br />
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-4">
+                                <html:Button ID="Button1" CssClass="btn btn-success " Width="130" runat="server" Text="Create" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
